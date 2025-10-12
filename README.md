@@ -8,7 +8,7 @@ This project demonstrates how to install, configure, and manage Active Directory
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure
 - Remote Desktop
 - Internet Information Services (IIS)
 - Microsoft Active Directory
