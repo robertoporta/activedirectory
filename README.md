@@ -24,7 +24,7 @@ This project demonstrates how to install, configure, and manage Active Directory
 <img width="1196" height="896" alt="Image" src="https://github.com/user-attachments/assets/ef629a9c-6d55-4166-bef1-73d9bda0f60a" />
 </p>
 <p>
--In the ticket section in the Agent Panel, I can see a new ticket has been submitted by a user.
+- First, a resource group is created in Azure. This group acts as a container that holds all related resources for the project, making it easier to manage, monitor, and organize everything connected to the Active Directory setup.
 </p>
 <br>
 
