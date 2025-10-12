@@ -24,7 +24,7 @@ This project demonstrates how to install, configure, and manage Active Directory
 <img width="1168" height="654" alt="Image" src="https://github.com/user-attachments/assets/0f26bc6a-ca6f-46bb-a6a4-06e89b5a0f36" />
 </p>
 <p>
-- First, a resource group is created in Azure. This group acts as a container that holds all related resources for the project, making it easier to manage, monitor, and organize everything connected to the Active Directory setup.
+- First, a resource group needs to be created in Azure. This group acts as a container that holds all related resources for the project, making it easier to manage, monitor, and organize everything connected to the Active Directory setup.
 </p>
 <br>
 
@@ -32,7 +32,7 @@ This project demonstrates how to install, configure, and manage Active Directory
 <img width="1169" height="657" alt="Image" src="https://github.com/user-attachments/assets/e8d7a487-c4ac-47e7-bf3d-f04972741fb3" />
 </p>
 <p>
-- A virtual network is also created to allow the virtual machine and other future resources to communicate securely within the same network. This setup provides the foundation for domain connectivity and simulates a real on-premises environment in the cloud.
+- Then, I create a virtual network to allow the virtual machine and other future resources to communicate securely within the same network. This setup provides the foundation for domain connectivity and simulates a real on-premises environment in the cloud.
   
 </p>
 <br>
@@ -41,7 +41,7 @@ This project demonstrates how to install, configure, and manage Active Directory
 <img width="1171" height="655" alt="Image" src="https://github.com/user-attachments/assets/222d81fa-f850-42b7-9dc4-6ed7ec4497d7" />
 </p>
 <p>
-- Then, I create the virtual machine that will act as the Domain Controller and name it “dc-1.” I also select the appropriate region and Windows Server image to ensure compatibility and optimal performance within the Azure environment.  
+- After that, I create the virtual machine that will act as the Domain Controller and name it “dc-1.” I also select the appropriate region and Windows Server image to ensure compatibility and optimal performance within the Azure environment.  
 </p>
 <br>
 
@@ -65,16 +65,92 @@ This project demonstrates how to install, configure, and manage Active Directory
 <img width="1165" height="654" alt="Image" src="https://github.com/user-attachments/assets/5b9fad0f-a6ab-43c7-b630-63d5b1a9d748" />
 </p>
 <p>
-- Finally, I select the appropriate Windows image and memory size for the client machine to ensure stable performance and compatibility during domain testing and user authentication.  
+- Then, I select the appropriate Windows image and memory size for the client machine to ensure stable performance and compatibility during domain testing and user authentication.  
 </p>
 <br>
 
 <p>
+<img width="1168" height="655" alt="image" src="https://github.com/user-attachments/assets/510846e4-82a2-4fd8-8175-fca5143df3bb" />
+</p>
+<p>
+- Finally, I change the private IP settings of the Domain Controller to static, ensuring its internal address remains the same even after restarts. This step is important because a Domain Controller must always have a fixed IP so other systems can reliably locate it for DNS resolution, authentication, and communication within the domain.
+</p>
+<br>
 
+
+
+<p>
+  
 </p>
 <p>
   
 </p>
 <br>
+
+<p>
+  
+</p>
+<p>
+  
+</p>
+<br>
+
+<p>
+  
+</p>
+<p>
+  
+</p>
+<br>
+
+<p>
+  
+</p>
+<p>
+  
+</p>
+<br>
+
+<p>
+  
+</p>
+<p>
+  
+</p>
+<br>
+
+<p>
+  
+</p>
+<p>
+  
+</p>
+<br>
+
+<p>
+  
+</p>
+<p>
+  
+</p>
+<br>
+
+<p>
+  
+</p>
+<p>
+  
+</p>
+<br>
+
+<p>
+  
+</p>
+<p>
+  
+</p>
+<br>
+
+
 
 <br />
