@@ -11,7 +11,7 @@ This project demonstrates how to install, configure, and manage Active Directory
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
-- osTicket
+- Microsoft Active Directory
 
 <h2>Operating Systems Used </h2>
 
