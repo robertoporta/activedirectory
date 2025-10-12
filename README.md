@@ -73,11 +73,9 @@ This project demonstrates how to install, configure, and manage Active Directory
 <img width="1168" height="655" alt="image" src="https://github.com/user-attachments/assets/510846e4-82a2-4fd8-8175-fca5143df3bb" />
 </p>
 <p>
-- Finally, I change the private IP settings of the Domain Controller to static, ensuring its internal address remains the same even after restarts. This step is important because a Domain Controller must always have a fixed IP so other systems can reliably locate it for DNS resolution, authentication, and communication within the domain.
+- Finally, I change the private IP settings of the Domain Controller to static, ensuring its internal address remains the same even after restarts. A Domain Controller must always have a fixed IP so other systems can reliably locate it for DNS resolution, authentication, and communication within the domain.
 </p>
 <br>
-
-
 
 <p>
   
