@@ -78,18 +78,18 @@ This project demonstrates how to install, configure, and manage Active Directory
 <br>
 
 <p>
-  
+<img width="1168" height="655" alt="Image" src="https://github.com/user-attachments/assets/4f4990f9-8b7b-482e-a691-23fc9a0e630c" />  
 </p>
 <p>
-  
+- After all resources are created, I can now access both virtual machines through Remote Desktop. In the domain controller, I open Server Manager and enable the Active Directory Domain Services role, which installs the core components needed to create and manage a Windows domain.  
 </p>
 <br>
 
 <p>
-  
+<img width="1170" height="656" alt="Image" src="https://github.com/user-attachments/assets/60fed0c5-43bb-4f1a-b6e4-ad1525a4ebd6" />  
 </p>
 <p>
-  
+I then add a forest, which is the top-level structure in Active Directory that contains and manages one or more domains under a single security boundary. I also specify the root domain as "mydomain.com," which serves as the main domain of the forest and the foundation for all user accounts, computers, and organizational units that will be created later.  
 </p>
 <br>
 
