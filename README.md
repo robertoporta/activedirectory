@@ -89,66 +89,32 @@ This project demonstrates how to install, configure, and manage Active Directory
 <img width="1170" height="656" alt="Image" src="https://github.com/user-attachments/assets/60fed0c5-43bb-4f1a-b6e4-ad1525a4ebd6" />  
 </p>
 <p>
-I then add a forest, which is the top-level structure in Active Directory that contains and manages one or more domains under a single security boundary. I also specify the root domain as "mydomain.com," which serves as the main domain of the forest and the foundation for all user accounts, computers, and organizational units that will be created later.  
+- I then add a forest, which is the top-level structure in Active Directory that contains and manages one or more domains under a single security boundary. I also specify the root domain as "mydomain.com," which serves as the main domain of the forest and the foundation for all user accounts, computers, and organizational units that will be created later.  
 </p>
 <br>
 
 <p>
-  
+<img width="1172" height="659" alt="Image" src="https://github.com/user-attachments/assets/5f1e71ff-779d-41d1-b26f-06f7a6ae756e" />
 </p>
 <p>
-  
+- Next, I create a new administrator user within Active Directory and set the appropriate properties such as username, password, and organizational unit. This account will serve as the main domain admin for managing users, computers, and security settings in the environment. Creating a separate admin user, rather than relying on the default Administrator account, is a best practice that provides better control and accountability.
 </p>
 <br>
 
 <p>
-  
+<img width="1166" height="654" alt="Image" src="https://github.com/user-attachments/assets/bcde39be-6f36-4b88-ab78-fcabc8755c21" />
 </p>
 <p>
-  
+- Then, I open PowerShell as an administrator and run a script that automatically creates hundreds of user accounts in Active Directory. This script uses commands like <code>New-ADUser</code> to generate accounts with predefined settings such as names, usernames, and passwords. The purpose of this step is to simulate a real-world environment by quickly populating the directory with many users, allowing for realistic testing and management practice throughout the project.
 </p>
 <br>
 
 <p>
-  
+<img width="1170" height="660" alt="Image" src="https://github.com/user-attachments/assets/17ed2371-fb7d-4681-a89b-e71396d1cafd" />  
 </p>
 <p>
-  
+- Finally, we can see the newly created users listed within Active Directory Users and Computers. This confirms that the PowerShell script ran successfully and that the users were added to the domain, completing the setup of the simulated environment.
 </p>
 <br>
-
-<p>
-  
-</p>
-<p>
-  
-</p>
-<br>
-
-<p>
-  
-</p>
-<p>
-  
-</p>
-<br>
-
-<p>
-  
-</p>
-<p>
-  
-</p>
-<br>
-
-<p>
-  
-</p>
-<p>
-  
-</p>
-<br>
-
-
 
 <br />
