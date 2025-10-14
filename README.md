@@ -18,7 +18,7 @@ This project demonstrates how to install, configure, and manage Active Directory
 
 - Windows 10</b> (22H2)
 
-<h2>Shared Folder Setup and Permission Configuration</h2>
+<h2>Active Directory Configuration and User Management</h2>
 
 <p>
 <img width="1168" height="654" alt="Image" src="https://github.com/user-attachments/assets/0f26bc6a-ca6f-46bb-a6a4-06e89b5a0f36" />
