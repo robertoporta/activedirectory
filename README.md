@@ -9,14 +9,14 @@ This project demonstrates how to install, configure, and manage Active Directory
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure
-- Remote Desktop
+- Remote Desktop (RDP)
+- Microsoft Active Directory Domain Services (AD DS)
+- Power Shell
 - Internet Information Services (IIS)
-- Microsoft Active Directory
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
-
+- Windows 10</b> (22H2)
 
 <h2>Working Ticket and Explanation</h2>
 
