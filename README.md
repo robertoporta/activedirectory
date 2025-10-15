@@ -2,7 +2,7 @@
 <img width="644" height="333" alt="Image" src="https://github.com/user-attachments/assets/5ba3a47e-65b6-4133-8cc8-b955b5e11c18"/>
 </p>
 
-<h1>Deploying and Configuring Active Directory and Users in Azure</h1>
+<h1>Deploying and Configuring Active Directory and Users</h1>
 This project demonstrates how to install, configure, and manage Active Directory Domain Services (AD DS) on a Windows Server virtual machine hosted in Microsoft Azure. The goal is to show the process of setting up a new domain, promoting the Azure VM to a domain controller, and creating and managing user accounts within the domain. It demonstrates how centralized user management and authentication work in an enterprise environment using Active Directory.
 </p>
 
